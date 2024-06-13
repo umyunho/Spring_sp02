@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="com.himedia.WalkClass" id="cWalk"></bean>
+    <!-- com.himedia.WalkClass 클래스의 객체를 생성하고 이름을 cWalk로 해서 보관해주세요-->
+    <bean class="com.himedia.WalkClass" id="cWalk2"></bean>
+    <!-- 객체가 두개이상 보관이 필요하다면 id를 다르게해서 bean을 추가로 생성-->
+</beans>
+
+
